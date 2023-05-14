@@ -41,8 +41,8 @@ curl -LG https://raw.githubusercontent.com/aaemnnosttv/wp-sqlite-db/master/src/d
 #Create dummy config to be overruled by sqlite plugin
 wp config create --skip-check --dbname=wp --dbuser=wp --dbpass=pass --extra-php <<PHP
 \$_SERVER[ "HTTPS" ] = "on";
-define( 'WP_HOME', 'https://$REPL_SLUG.$REPL_OWNER.repl.co' );
-define( 'WP_SITEURL', 'https://$REPL_SLUG.$REPL_OWNER.repl.co' );
+define( 'WP_HOME', 'https://xn--0squ75j2db.gq' );
+define( 'WP_SITEURL', 'https://xn--0squ75j2db.gq' );
 define ('FS_METHOD', 'direct');
 define('FORCE_SSL_ADMIN', true);
 PHP
